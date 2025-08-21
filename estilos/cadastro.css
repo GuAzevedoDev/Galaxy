@@ -1,12 +1,12 @@
 /* Global */
-@import "/estilos/global/configs.css";
+@import "../estilos/global/configs.css";
 
 /* Utilitarios */
-@import "/estilos/utilitarios/elementos.css";
-@import "/estilos/utilitarios/cores.css";
-@import "/estilos/utilitarios/tipografia.css";
+@import "../estilos/utilitarios/elementos.css";
+@import "../estilos/utilitarios/cores.css";
+@import "../estilos/utilitarios/tipografia.css";
 
 /* Cadastro */
-@import "/estilos/cadastro/header.css";
-@import "/estilos/cadastro/main.css";
+@import "../estilos/cadastro/header.css";
+@import "../estilos/cadastro/main.css";
 
