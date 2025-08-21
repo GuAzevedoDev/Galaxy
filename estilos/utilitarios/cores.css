@@ -1,0 +1,24 @@
+:root {
+  --preto: #000;
+  --branco: #fff;
+  --primaria: #7f00ff;
+  --secundaria: #0d021f;
+  --terciaria: #4c3575;
+}
+
+.preto {
+  color: var(--preto);
+}
+.branco {
+  color: var(--branco);
+}
+.primaria {
+  color: var(--primaria);
+}
+.secundaria {
+  color: var(--secundaria);
+}
+.terciaria {
+  color: var(--terciaria);
+}
+

@@ -1,0 +1,10 @@
+.btn-grande {
+  background: var(--primaria);
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}

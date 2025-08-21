@@ -1,0 +1,69 @@
+main {
+  background: var(--branco);
+  border-radius: 20px;
+  padding: 80px 120px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+form input {
+  padding: 5px;
+}
+
+.form-item {
+  display: grid;
+  gap: 10px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.login-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#termos {
+  transform: scale(1.5);
+}
+
+.googleFace {
+  gap: 30px;
+}
+
+@media (max-width: 1150px) {
+  main {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  form {
+    margin-top: 20px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  form {
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .login{justify-content: center;}
+}
