@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+  gap: 50px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.lista-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.logo a img {
+  max-width: 70px;
+}
+
+@media (max-width: 650px) {
+  .header {
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 455px) {
+  .header {
+    justify-content: center;
+    gap: 10px;
+  }
+}

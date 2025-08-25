@@ -13,3 +13,8 @@
 .btn-grande:hover {
   background: var(--terciaria);
 }
+
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+}

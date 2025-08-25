@@ -1,0 +1,11 @@
+/* Global */
+@import "../estilos/global/configs.css";
+@import "../estilos/global/header.css";
+
+/* Utilitarios */
+@import "../estilos/utilitarios/elementos.css";
+@import "../estilos/utilitarios/cores.css";
+@import "../estilos/utilitarios/tipografia.css";
+
+/* Cadastro */
+@import "../estilos/paginaPrincipal/main.css";
