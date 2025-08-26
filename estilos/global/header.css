@@ -22,9 +22,49 @@ nav {
   justify-content: center;
 }
 
+.header-item {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.pesquisar {
+  display: flex;
+  position: relative;
+}
+
+.pesquisar input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  transition: 0.3s;
+  padding: 5px;
+  right: 0;
+  border-radius: 5px;
+  outline-color: var(--primaria);
+  width: 300px;
+}
+
+.pesquisar input:focus {
+  opacity: 100%;
+  transform: translateX(-50px);
+}
+
+.pesquisar:hover input {
+  transform: translateX(-50px);
+  opacity: 100%;
+  z-index: 10;
+}
+
+.pesquisar {
+  padding-left: 200px;
+  img {
+    cursor: pointer;
+  }
+}
+
 .logo {
   display: flex;
-  margin-right: 20px;
+  margin-right: 50px;
   justify-content: center;
 }
 
@@ -32,16 +72,39 @@ nav {
   max-width: 70px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
+  .pesquisar {
+    padding-left: 20px;
+    right: 0;
+  }
   .header {
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
+  }
+  .header1 {
+    display: none;
   }
 }
 
-@media (max-width: 455px) {
-  .header {
-    justify-content: center;
-    gap: 10px;
+@media (max-width: 640px) {
+  .pesquisar input {
+    width: 200px;
   }
+}
+
+@media (max-width: 500px) {
+  .pesquisar input {
+    width: 150px;
+  }
+  .pesquisar:hover input {
+    transform: translateX(-30px);
+  }
+  .pesquisar input:focus {
+    transform: translateX(-30px);
+  }
+}
+
+@media (max-width: 440px) {
+  .pesquisar{display: none;}
+
 }
