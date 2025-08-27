@@ -1,0 +1,29 @@
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 80%;
+  height: 600px;
+  z-index: -999;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80%;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    var(--secundaria) 0%,
+    rgba(13, 13, 13, 0) 20%,
+    rgba(13, 13, 13, 0) 80%,
+    var(--secundaria) 100%
+  );
+  z-index: -100;
+}
