@@ -5,7 +5,7 @@
   left: 0;
   object-fit: cover;
   min-width: 100%;
-  min-height: 80%;
+  min-height: 95%;
   height: 600px;
   z-index: -999;
 }
@@ -15,7 +15,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 80%;
+  min-height: 95%;
   z-index: -1;
   pointer-events: none;
   background: linear-gradient(
