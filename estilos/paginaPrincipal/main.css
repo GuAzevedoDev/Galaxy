@@ -9,8 +9,8 @@ main {
 }
 .bg-video {
   z-index: -999;
-  width: 70%;
-  height: 75vh;
+  width: 100%;
+  height: 100vh;
   object-fit: cover;
   object-position: center;
   position: absolute;
@@ -22,8 +22,8 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  height: 75vh;
-  width: 70%;
+  height: 100vh;
+  width: 100%;
   pointer-events: none;
   background: linear-gradient(
     to bottom,
@@ -34,23 +34,34 @@ main {
   );
   z-index: -100;
 }
-.overlay-left {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 75vh;
-  width: 70%;
-  pointer-events: none;
-  background: linear-gradient(
-    to left,
-    var(--secundaria) 0%,
-    rgba(13, 13, 13, 0) 20%,
-    rgba(13, 13, 13, 0) 80%,
-    var(--secundaria) 100%
-  );
-  z-index: -100;
-}
 
 .main {
+  display: grid;
+  justify-items: start;
   color: #fff;
+  gap: 50px;
+}
+
+.btn-main {
+  font-size: 2rem;
+  padding: 15px 100px;
+  border-radius: 10px;
+  background: var(--primaria);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+}
+
+.btn-info {
+  padding: 8px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.btn-info img {
+  max-width: 50px;
 }
