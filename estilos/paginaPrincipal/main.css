@@ -47,6 +47,11 @@ main {
   padding: 15px 100px;
   border-radius: 10px;
   background: var(--primaria);
+  transition: 0.3s;
+}
+
+.btn-main:hover {
+  background: var(--terciaria);
 }
 
 .info {
@@ -58,10 +63,15 @@ main {
 
 .btn-info {
   padding: 8px;
-  background: #fff;
+  background: var(--terciaria);
   border-radius: 10px;
+  transition: 0.3s;
 }
 
 .btn-info img {
   max-width: 50px;
+}
+
+.btn-info:hover {
+  background: var(--secundaria);
 }

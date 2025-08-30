@@ -7,5 +7,6 @@
 @import "../estilos/utilitarios/cores.css";
 @import "../estilos/utilitarios/tipografia.css";
 
-/* Cadastro */
+/* Principal */
 @import "../estilos/paginaPrincipal/main.css";
+@import "../estilos/paginaPrincipal/article.css";
