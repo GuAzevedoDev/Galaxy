@@ -17,4 +17,16 @@
 .container {
   max-width: 1700px;
   margin: 0 auto;
+  padding: 15px;
+}
+
+.selected a::before {
+  content: "";
+  position: absolute;
+  transition: 0.3s;
+  bottom: 0;
+  background-color: var(--primaria);
+  height: 2px;
+  width: 100%;
+  border-radius: 5px;
 }

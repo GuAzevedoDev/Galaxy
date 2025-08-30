@@ -4,13 +4,13 @@ main {
   max-width: 1700px;
   margin: 0 auto;
   padding: 15px;
-  height: 68vh;
+  height: 75vh;
   align-items: end;
 }
 .bg-video {
   z-index: -999;
   width: 100%;
-  height: 100vh;
+  height: 108vh;
   object-fit: cover;
   object-position: center;
   position: absolute;
@@ -22,7 +22,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 108vh;
   width: 100%;
   pointer-events: none;
   background: linear-gradient(

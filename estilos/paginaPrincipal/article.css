@@ -1,0 +1,19 @@
+.article {
+  margin-top: 10vh;
+  height: 90vh;
+}
+
+.lista-plataformas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vh;
+}
+
+.lista-plataformas li a img{
+  transition: 0.3s;
+  max-width: 130px;
+}
+
+.lista-plataformas li a img:hover {
+  scale: 1.2;
+}
